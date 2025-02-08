@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+.images {
+    border-radius: 12px;
+    position: relative;
+}
+
+.first_image img, .second_image img, .third_image img, .fourth_image img, .fifth_image img{
+    width: 910px;
+    height: 500px;    
+    margin: 20px auto;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.first_image button {
+    position: absolute;
+    top: 450px;
+    left: 575px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 16px;
+    transition: transform 2s ease;
+}
+.first_image button:active {
+    transform: scale(0.95);
+}
+

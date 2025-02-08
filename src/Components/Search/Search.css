@@ -1,0 +1,82 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.search{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.search2 h5 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+    transition: transform 2s ease;
+    cursor: pointer;
+}
+
+.search2 h5:hover{
+    color: red;
+    transform: scale(1.15);
+}
+
+.search3 input{
+    background-image: url(https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png);
+    background-size: 15px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    width: 100%;
+    padding: 15px 10px 8px 25px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+}
+
+.search3 input:focus {
+    border-color: blue;
+}
+
+.bottom_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 150px;
+}
+
+.bottom_search h3 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.bot_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 150px;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.bot_search h3{
+    color: red;
+    padding-bottom: 5px;
+}
+
+.bot_search3{
+    font-size: 30px;
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 1px 10px 4px rgb(184, 183, 183);
+    top: 0;
+    left: 0;
+}
+
+.header1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header1 h5{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.header2 {
+    z-index: 1000;
+}
+.header2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.header3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header3 h6{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
