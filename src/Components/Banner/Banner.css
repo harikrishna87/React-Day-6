@@ -4,10 +4,12 @@ body{
 .images {
     border-radius: 12px;
     position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .first_image img, .second_image img, .third_image img, .fourth_image img, .fifth_image img{
-    width: 910px;
+    width: 1220px;
     height: 500px;    
     margin: 20px auto;
     opacity: 0.8;
